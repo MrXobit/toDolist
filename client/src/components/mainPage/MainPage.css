@@ -1,0 +1,255 @@
+.cafePass-add-new-cafe-pass-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease;
+    max-width: 450px;
+    margin: 30px auto;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+}
+
+.cafePass-add-new-cafe-pass-con:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.1);
+    background-color: #f4f4f4;
+}
+
+.block-for-cafe-pass-img-pluss img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    object-fit: contain;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.block-for-cafe-pass-img-pluss img:hover {
+    filter: brightness(1.2);
+}
+
+.cafe-pass-p-just-text {
+    font-size: 24px;
+    color: #333333;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease, transform 0.3s ease-in-out;
+}
+
+.cafe-pass-p-just-text:hover {
+    color: #007bff;
+}
+
+.conFor-loader {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.task-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+
+  .task-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+
+  .task-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  .task-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+  
+  
+  .task-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+
+  .task-status {
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+
+.task-status {
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .task-status.completed {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .task-status.pending {
+    background-color: #ff9800;
+    color: #fff;
+  }
+  
+  .task-status.in-progress {
+    background-color: #2196f3;
+    color: #fff;
+  }
+  
+  
+
+  .no-tasks-message {
+    font-size: 1.2rem;
+    color: #777;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+
+  .handle-logout {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .handle-logout:hover {
+    background-color: #d32f2f;
+    transform: translateY(-2px);
+  }
+  
+  .handle-logout:active {
+    background-color: #c62828;
+    transform: translateY(0);
+  }
+  
+  .handle-logout:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 87, 34, 0.6);
+  }
+  
+
+
+  .mainPage-title {
+    margin: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .mainPage-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 2px;
+    margin: 10px auto;
+  }
+  
+
+
+
+
+  .task-actions {
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: flex-end;
+  }
+  
+  .task-edit {
+    background-color: #ffeb3b;
+    color: #333;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .task-edit:hover {
+    background-color: #fbc02d;
+    transform: scale(1.05);
+  }
+  
+  .task-edit:active {
+    background-color: #f57f17;
+    transform: scale(1);
+  }
+  
+  .task-delete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .task-delete:hover {
+    background-color: #e53935;
+    transform: scale(1.05);
+  }
+  
+  .task-delete:active {
+    background-color: #c62828;
+    transform: scale(1);
+  }
+  
